@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thank You for Your Order</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-2zfsHzhrrMjN6xj97F0dQrX9j+Y8kZUIZKrFNMzUKyQl0JzD2Zld4k/mK7et1SU51rldNbqKrE3R9VeWpOzg6WQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(to right, #3498db, #2c3e50);
+            margin: 0;
+            padding: 0;
+            color: #ecf0f1;
+        }
+
+        header {
+            background-color: #2c3e50;
+            color: #ecf0f1;
+            text-align: center;
+            padding: 1em 0;
+        }
+
+        main {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #ecf0f1;
+            padding: 30px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            text-align: center;
+        }
+
+        .fa-check-circle {
+            color: #2ecc71;
+            font-size: 100px;
+            margin-bottom: 20px;
+        }
+
+        .thank-you-message {
+            font-size: 36px;
+            font-weight: bold;
+            margin-bottom: 20px;
+        }
+
+        .order-summary,
+        .delivery-info {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            text-align: left;
+        }
+
+        .order-summary h2,
+        .delivery-info h2 {
+            color: #3498db;
+        }
+
+        .order-details {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 10px;
+        }
+
+        .order-details label {
+            font-weight: bold;
+            color: #2c3e50;
+        }
+
+        .back-to-home {
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        .back-to-home p {
+            margin-bottom: 10px;
+        }
+
+        .back-to-home a {
+            text-decoration: none;
+            color: #3498db;
+            font-weight: bold;
+            padding: 10px 20px;
+            border-radius: 6px;
+            background-color: #2c3e50;
+            transition: background-color 0.3s ease;
+        }
+
+        .back-to-home a:hover {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Awesome Shop</h1>
+    </header>
+    <main>
+        <div class="fa-check-circle"><i class="fas fa-check-circle"></i></div>
+        <div class="thank-you-message">Thank You for Your Order!</div>
+        
+        <div class="order-summary">
+            <h2>Order Summary</h2>
+            <div class="order-details">
+                <label>Order Number:</label>
+                <span>#123456789</span>
+            </div>
+            <div class="order-details">
+                <label>Order Date:</label>
+                <span>November 12, 2023</span>
+            </div>
+            <div class="order-details">
+                <label>Total Amount:</label>
+                <span>$49.99</span>
+            </div>
+        </div>
+
+        <div class="delivery-info">
+            <h2>Delivery Information</h2>
+            <div class="order-details">
+                <label>Shipping Address:</label>
+                <span>123 Street, City, Country</span>
+            </div>
+            <div class="order-details">
+                <label>Estimated Delivery Date:</label>
+                <span>November 20, 2023</span>
+            </div>
+        </div>
+
+        <div class="back-to-home">
+            <p>Your order will be processed shortly. You can track your order in your account.</p>
+            <p>For any inquiries, please contact our customer support.</p>
+            <a href="index.html">Back to Home</a>
+        </div>
+    </main>
+</body>
+</html>
